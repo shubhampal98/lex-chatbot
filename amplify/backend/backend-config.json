@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "cognitofc2c60cf": {
+      "service": "Cognito",
+      "serviceType": "managed",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "interactions": {
+    "lex41a566ba": {
+      "service": "Lex",
+      "providerPlugin": "awscloudformation",
+      "build": true
+    }
+  }
+}
